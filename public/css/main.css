@@ -1,0 +1,140 @@
+body {
+
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.slider {
+    padding: 0;
+    max-height: 80vh;
+}
+
+/*#carouselExampleSlidesOnly {*/
+    /*height: 70vh;*/
+/*}*/
+#carouselExampleSlidesOnly img {
+    /*max-width: 100%;*/
+    max-height: 75vh;
+}
+.justify-content-center .col-sm-9 {
+    margin-top: 5em;
+    text-align: center;
+}
+
+.justify-content-center .col-sm-4 {
+    margin-top: 3em;
+}
+
+.justify-content-center .col-sm-4 .col-sm-12 {
+    text-align: justify;
+    padding: 5%;
+}
+
+.our-work, .clients {
+    padding-top: 3%;
+}
+
+.main-info {
+    background-color: #2d77ba33;
+    padding-bottom: 5em;
+}
+
+.main-info .bg-white{
+
+    padding: 15px 0 0 0;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.bg-white .fas {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 5em;
+}
+
+.our-work {
+    background-color: #1860a166;
+    padding-bottom: 3%;
+}
+
+.clients {
+    background-color: #307fc6e6;
+    padding-bottom: 3%;
+}
+
+.our-work img, .clients img{
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.our-work h2, .clients h2 {
+    margin-bottom: 3%;
+}
+
+.our-work h4 {
+    padding-bottom: 15px;
+}
+
+.text-center {
+    width: 100%;
+}
+
+.about {
+    background: url("/images/site/about.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.factory {
+    background: url("/images/site/factory.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.about, .contacts, .dostavka, .factory, .production {
+    padding: 5% 0;
+}
+
+.about h2, .contacts h2, .dostavka h2, .factory h2, .production h2 {
+    margin-bottom: 5%;
+}
+
+.dostavka img, .contacts img {
+    width: 100%;
+    max-width: 900px;
+}
+
+.contacts img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.contacts .row {
+    padding-bottom: 25px;
+}
+
+.support {
+    margin-top: 5%;
+}
+
+.page-footer {
+    padding-top: 5%;
+}
+
+.page-footer .input-group, .page-footer .btn-danger {
+    margin-top: 15px;
+}
+
+.footer-copyright {
+    margin-top: 3%;
+    background-color: #0b72e1;
+}

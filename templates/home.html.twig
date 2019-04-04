@@ -1,1 +1,143 @@
-<h1>Your lucky number is {{ number }}</h1>
+{% extends 'base.html.twig' %}
+{% block content %}
+    <!--========== SWIPER SLIDER ==========-->
+    <div class="slider">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="{{ asset('/images/site/1.jpeg') }}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ asset('/images/site/2.jpg') }}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ asset('/images/site/3.jpg') }}" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-info">
+        <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-sm-9">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="bg-white">
+                            <div>
+                                <i class="fas fa-pencil-ruler fa-2x" style="color: #339af0"></i>
+                            </div>
+                            <div class="col-sm-12">
+                                Наши специалисты презжают к Вам в удобное Вам время и проводят замеры с учетом всех ньюансов
+                                для максимально точного изготовления мебели, соответствия ее месту установки и гармоничного
+                                дизайна
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="bg-white">
+                            <div>
+                                <i class="fas fa-laptop fa-2x" style="color: #339af0"></i>
+                            </div>
+                            <div class="col-sm-12">
+                                Наши конструктора мебель и дизайнеры всегда стараются разнообразить внешний вид Вашей
+                                мебели. Они разработают для вас индивидуальный дизайн по вашим пожеланиям что сделает вашу
+                                мебель оригинальной, практичной, красивой и удобной для Вас!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="bg-white">
+                            <div>
+                                <i class="fas fa-clock fa-2x" style="color: #339af0"></i>
+                            </div>
+                            <div class="col-sm-12">
+                                У нас свое производство и специалисты. Ето значит что мы не зависим от подрядчиков и их
+                                сроков изготовления. Наши специалисты изготовят для Вас мебель любой сложности и модификации
+                                максимально быстро и качественно.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="bg-white">
+                            <div>
+                                <i class="fas fa-tools fa-2x" style="color: #339af0"></i>
+                            </div>
+                            <div class="col-sm-12">
+                                Мебли ФАСАД - это высокое качество и надежность, проверенные годами. Мы используем только
+                                качественные признанные мировыми производителями фурнитуры мателиалы согласно междкнародных
+                                стандартов ISO.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="bg-white">
+                            <div>
+                                <i class="fas fa-dollar-sign fa-2x" style="color: #339af0"></i>
+                            </div>
+                            <div class="col-sm-12">
+                                У нас отличная гибкая ценовая политика соответствующая качеству продукции. Стоимость каждого
+                                заказа просчитывается индивидуально исходя из пожеланий клиента.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="bg-white">
+                            <div>
+                                <i class="fas fa-thumbs-up fa-2x" style="color: #339af0"></i>
+                            </div>
+                            <div class="col-sm-12">
+                                В стоимость заказа входит доставка и установка мебели, а значит мы гарантируем что мебель не
+                                побьется при транспортировке. Также наши специалисты быстро соберут и максимально гармонично
+                                установят мебель в нужное Вам место.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="our-work row h-100 justify-content-center align-items-center">
+        <h2 class="text-center">Примеры наших работ</h2>
+        <div class="col-sm-5 ">
+            <div class="bg-white">
+                <img src="{{ asset('/images/kitchen/1.jpg') }}" alt="Кухни">
+                <h4 class="text-center">Кухни</h4>
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <div class="bg-white">
+                <img src="{{ asset('/images/cupboard/1.jpg') }}" alt="Шкафи">
+                <h4 class="text-center">Шкафи</h4>
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <div class="bg-white">
+                <img src="{{ asset('/images/reception/1.jpg') }}" alt="Ресепшн">
+                <h4 class="text-center">Ресепшн</h4>
+            </div>
+        </div>
+        <div class="col-sm-5">
+            <div class="bg-white">
+                <img src="{{ asset('/images/table/1.jpg') }}" alt="Столы">
+                <h4 class="text-center">Столы</h4>
+            </div>
+        </div>
+    </div>
+    <div class="clients row h-100 justify-content-center align-items-center">
+        <h2 class="text-center">Наши клиенты</h2>
+        <div class="col-sm-3">
+            <img src="{{ asset('/images/clients/1.png') }}" alt="Clients">
+        </div>
+        <div class="col-sm-3">
+            <img src="{{ asset('/images/clients/2.png') }}" alt="Clients">
+        </div>
+        <div class="col-sm-3">
+            <img src="{{ asset('/images/clients/3.jpeg') }}" alt="Clients">
+        </div>
+        <div class="col-sm-3">
+            <img src="{{ asset('/images/clients/3.png') }}" alt="Clients">
+        </div>
+    </div>
+
+{% endblock content %}
