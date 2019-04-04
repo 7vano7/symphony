@@ -17,6 +17,8 @@ $routes->add('factory', '/factory')->controller([MainController::class, 'factory
 $routes->add('production', '/production')->controller([MainController::class, 'production'])->methods(['GET']);
 $routes->add('dostavka', '/dostavka')->controller([MainController::class, 'dostavka'])->methods(['GET']);
 $routes->add('contacts', '/contacts')->controller([MainController::class, 'contacts'])->methods(['GET']);
+
+
 // Matches /blog/*
 // but not /blog/slug/extra-part
 //$routes->add('blog_show', '/blog/{slug}')
